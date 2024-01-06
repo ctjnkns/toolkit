@@ -4,7 +4,8 @@ on:
   pull_request:
     branches:
        - "*"
-
+  workflow_dispatch:
+  
   steps:
     - name: Checkout
       uses: actions/checkout@v3
